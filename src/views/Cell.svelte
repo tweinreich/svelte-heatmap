@@ -6,8 +6,9 @@
     rx={radius}
     width={size}
     x={x}
-    y={y}
-/>
+    y={y}>
+    <title>{value}</title>
+</rect>
 
 <script>
 import { stringifyDate } from '../utils/date';

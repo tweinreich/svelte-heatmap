@@ -5,7 +5,7 @@
   },
   "description": "A light weight and customizable version of GitHub's contribution graph",
   "devDependencies": {
-    "@babel/core": "^7.10.2",
+    "@babel/core": "7.18.6",
     "@babel/preset-env": "^7.10.2",
     "@rollup/plugin-node-resolve": "^9.0.0",
     "babel-jest": "^26.0.1",
@@ -32,7 +32,7 @@
   "name": "svelte-heatmap",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scottbedard/svelte-heatmap.git"
+    "url": "git+https://github.com/tweinreich/svelte-heatmap.git"
   },
   "svelte": "src/index.js",
   "scripts": {
@@ -42,5 +42,5 @@
     "watch": "rollup -c -w"
   },
   "unpkg": "dist/index.umd.min.js",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
