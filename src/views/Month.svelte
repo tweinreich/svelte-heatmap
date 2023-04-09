@@ -17,7 +17,7 @@
             font-family={fontFamily}
             font-size={fontSize}
             x="0"
-            y="0">
+            y="10">
             {monthLabels[days[0].date.getMonth()]}
         </text>
     {/if}
